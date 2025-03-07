@@ -1,0 +1,124 @@
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2563eb;
+  padding: 15px 20px;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styling */
+.navbar-logo {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+/* Navigation links */
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #dbeafe;
+}
+
+/* Search bar container */
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.search-input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+  width: 200px;
+}
+
+.search-button {
+  padding: 8px 12px;
+  margin-left: 8px;
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.search-button:hover {
+  background-color: #059669;
+}
+
+/* ✅ Search results */
+.search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 150px;
+  overflow-y: auto;
+  display: none;
+}
+
+/* ✅ Show results only when input is focused */
+.search-container:focus-within .search-results {
+  display: block;
+}
+
+.search-item {
+  padding: 8px;
+  border-bottom: 1px solid #e5e7eb;
+  cursor: pointer;
+}
+
+.search-item:hover {
+  background-color: #f3f4f6;
+}
+
+/* ✅ "No results found" message */
+.no-results {
+  padding: 10px;
+  font-size: 14px;
+  color: #dc2626;
+  font-weight: bold;
+  text-align: center;
+  background: #fef2f2;
+  border-radius: 5px;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links {
+    margin-top: 10px;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+}

@@ -1,0 +1,69 @@
+Full-page container to center the form
+.add-item-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f3f4f6; /* Light gray background */
+}
+
+/* Form container with square shape */
+.add-item-form {
+  width: 350px; /* Square design */
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form title */
+.add-item-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1f2937; /* Dark gray text */
+  margin-bottom: 15px;
+}
+
+/* Input fields */
+.add-item-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #d1d5db; /* Light gray border */
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.add-item-input:focus {
+  border-color: #2563eb; /* Blue border on focus */
+}
+
+/* Submit button */
+.add-item-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2563eb; /* Blue button */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-item-button:hover {
+  background-color: #1d4ed8; /* Darker blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .add-item-form {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+}

@@ -1,0 +1,14 @@
+.footer {
+  background-color: #1f2937; /* Dark gray background */
+  color: white; /* White text */
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+.footer-tagline {
+  font-size: 14px;
+  color: #d1d5db; /* Lighter gray text */
+}
