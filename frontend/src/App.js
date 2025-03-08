@@ -7,6 +7,7 @@ import Dashboard from "./pages/Dashboard";
 import Register from "./pages/Register";
 import Search from "./components/Search";
 import "./global.css";
+import SchedulePage from "./pages/SchedulePage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           {/* Dashboard with Nested Routes */}
           <Route path="/dashboard/*" element={<Dashboard />} />
           <Route path="/search" element={<Search />} />
+          <Route path="/schedule" element={<SchedulePage />} /> {/* ✅ New Route */}
         </Routes>
       </Router>
     </AuthProvider>

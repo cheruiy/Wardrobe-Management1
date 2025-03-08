@@ -1,6 +1,7 @@
 /* Center and style the entire home page */
 .home-container {
   text-align: center;
+  padding: 20px;
 }
 
 /* Header styling */
@@ -57,6 +58,42 @@
   color: #4b5563; /* Gray text */
 }
 
+/* ✅ Outfit Ideas Carousel */
+.carousel-section {
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f3f4f6; /* Light gray background */
+  border-radius: 8px;
+}
+
+.carousel-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.carousel-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+/* ✅ Outfit Scheduler */
+.scheduler-section {
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #e0f2fe; /* Light blue background */
+  border-radius: 8px;
+}
+
+.scheduler {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.scheduler h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
 /* Call to action */
 .home-cta {
   margin: 40px 0;
@@ -101,5 +138,10 @@
 
   .home-cta h2 {
     font-size: 1.8rem;
+  }
+
+  .carousel-container,
+  .scheduler {
+    max-width: 90%;
   }
 }

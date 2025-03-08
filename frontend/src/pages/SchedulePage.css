@@ -1,0 +1,16 @@
+.schedule-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .schedule-page h1 {
+    font-size: 28px;
+    color: #1f2937;
+    margin-bottom: 20px;
+  }
+  
+  /* Ensure components are spaced out */
+  .schedule-page > * {
+    margin-bottom: 30px;
+  }
+  

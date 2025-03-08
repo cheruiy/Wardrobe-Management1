@@ -53,6 +53,7 @@ const Navbar = () => {
           <>
             <Link to="/login">Login</Link>
             <Link to="/register" className="nav-button">Register</Link>
+            <Link to="/schedule">Scheduler</Link> {/* ✅ Added Link to Schedule Page */}
           </>
         )}
       </div>

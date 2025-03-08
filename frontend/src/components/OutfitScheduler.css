@@ -1,0 +1,55 @@
+/* Center the scheduler container */
+.scheduler {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #e0f2fe; /* Light blue background */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Scheduler Title */
+  .scheduler h2 {
+    font-size: 1.8rem;
+    color: #1e3a8a; /* Dark blue text */
+    margin-bottom: 15px;
+  }
+  
+  /* Date-Time Picker Styling */
+  .scheduler .react-datetime-picker {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #d1d5db; /* Light gray border */
+    padding: 5px;
+    transition: border-color 0.3s;
+  }
+  
+  .scheduler .react-datetime-picker:focus-within {
+    border-color: #2563eb; /* Blue border on focus */
+  }
+  
+  /* Selected Date Display */
+  .scheduler p {
+    font-size: 1rem;
+    color: #4b5563; /* Dark gray text */
+    margin-top: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .scheduler {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .scheduler h2 {
+      font-size: 1.5rem;
+    }
+  }
+  

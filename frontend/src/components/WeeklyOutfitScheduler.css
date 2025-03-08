@@ -1,0 +1,10 @@
+.weekly-scheduler {
+    text-align: center;
+    padding: 20px;
+  }
+  .weekly-scheduler input {
+    margin: 5px;
+    padding: 8px;
+    width: 200px;
+  }
+  
